@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titleHint" />
+
+    <EditText
+        android:id="@+id/editAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/authorHint" />
+
+    <EditText
+        android:id="@+id/editRackNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rackNumberHint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editShelfNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/shelfNumberHint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editVendorCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Артикул"
+        android:inputType="number" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Library Manager</string>
+    <string name="titleHint">Название книги</string>
+    <string name="authorHint">Автор</string>
+    <string name="rackNumberHint">Номер стеллажа</string>
+    <string name="shelfNumberHint">Номер полки</string>
+    <string name="authorInfo">Выполнил: Михаил Алексеев РИБО-05-22</string>
+</resources>
